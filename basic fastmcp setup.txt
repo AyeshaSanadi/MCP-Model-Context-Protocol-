@@ -1,0 +1,14 @@
+1. install uv using pip install uv command.
+2. create new directory and go into that directory
+3. Execute uv init . command
+4. Execute uv add fastmcp command
+5. check fastmcp version using fastmcp version command
+6. create basic sever [add code inside main.py file] 
+7. Test/Debug the server using this command:
+    uv run fastmcp dev inspector main.py
+8. Run the server using this command:
+    uv run fastmcp run main.py
+9. Add the server to claude desktop:
+    uv run fastmcp install claude-desktop main.py
+    
+    
